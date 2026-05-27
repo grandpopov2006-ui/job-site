@@ -54,6 +54,8 @@ app.post("/api/applications", async (req, res) => {
   }
 });
 
-app.listen(5050, () => {
-  console.log("🚀 Backend работает: http://localhost:5050");
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`🚀 Backend работает: ${PORT}`);
 });
