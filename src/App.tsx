@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-type Lang = "ua" | "en" | "cz" | "ru";
+type Lang = "ua" | "en" | "ru";
 
 const translations = {
   ua: {
