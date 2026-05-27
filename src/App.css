@@ -1,5 +1,12 @@
 .counter {
   font-size: 16px;
+  @media (max-width: 768px) {
+  h1 {
+    font-size: 42px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+  }
+}
   padding: 5px 10px;
   border-radius: 5px;
   color: var(--accent);

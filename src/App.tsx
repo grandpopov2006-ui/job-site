@@ -4,8 +4,8 @@ type Lang = "ua" | "en" | "cz" | "ru";
 
 const translations = {
   ua: {
-    title: "Заявка на роботу",
-    subtitle: "Залиште заявку і ми звʼяжемося з вами",
+    title: "Заповніть анкету",
+    subtitle: "Найближчим часом ми з вами зв'яжемося",
     fullName: "👤 ПІБ",
     phone: "📞 Телефон",
     city: "📍 Місто проживання",
@@ -14,8 +14,8 @@ const translations = {
     button: "Надіслати заявку",
   },
   en: {
-    title: "Job Application",
-    subtitle: "Leave your application and we will contact you",
+    title: "Fill Out the Application Form",
+    subtitle: "We’ll get in touch with you soon",
     fullName: "👤 Full name",
     phone: "📞 Phone number",
     city: "📍 City of residence",
@@ -23,19 +23,10 @@ const translations = {
     about: "💬 Tell us about yourself (optional)",
     button: "Submit Application",
   },
-  cz: {
-    title: "Žádost o práci",
-    subtitle: "Zanechte žádost a my se vám ozveme",
-    fullName: "👤 Celé jméno",
-    phone: "📞 Telefon",
-    city: "📍 Město bydliště",
-    age: "🗓️ Věk",
-    about: "💬 Napište něco o sobě (volitelné)",
-    button: "Odeslat žádost",
-  },
+  
   ru: {
-    title: "Заявка на работу",
-    subtitle: "Оставьте заявку и мы свяжемся с вами",
+    title: "Заполните анкету",
+    subtitle: "В ближайшее время мы с вами свяжемся",
     fullName: "👤 ФИО",
     phone: "📞 Телефон",
     city: "📍 Город проживания",
