@@ -74,7 +74,7 @@ const handleChange = (
 const sendApplication = async () => {
   console.log("Кнопка нажата");
   const response = await fetch(
-    "http://localhost:5050/api/applications",
+    "/api/applications",
     {
       method: "POST",
       headers: {
