@@ -200,7 +200,7 @@ const title = {
   textAlign: "center" as const,
   fontSize: "46px",
   color: "#111827",
-  marginBottom: "10px",
+  marginBottom: "30px",
 };
 
 const subtitle = {
