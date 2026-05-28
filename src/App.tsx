@@ -13,18 +13,8 @@ const translations = {
     about: "💬 Розкажіть про себе (не обовʼязково)",
     button: "Надіслати заявку",
   },
-  en: {
-    title: "Fill Out the Application Form",
-    subtitle: "We’ll get in touch with you soon",
-    fullName: "👤 Full name",
-    phone: "📞 Phone number",
-    city: "📍 City of residence",
-    age: "🗓️ Age",
-    about: "💬 Tell us about yourself (optional)",
-    button: "Submit Application",
-  },
   
-  ru: {
+ru: {
     title: "Заполните анкету",
     subtitle: "В ближайшее время мы с вами свяжемся",
     fullName: "👤 ФИО",
@@ -34,13 +24,24 @@ const translations = {
     about: "💬 Расскажите о себе (не обязательно)",
     button: "Отправить заявку",
   },
+  
+  en: {
+    title: "Application Form",
+    subtitle: "We’ll get in touch with you soon",
+    fullName: "👤 Full name",
+    phone: "📞 Phone number",
+    city: "📍 City of residence",
+    age: "🗓️ Age",
+    about: "💬 Tell us about yourself (optional)",
+    button: "Submit Application",
+  },
 };
 
 const languages = [
   { code: "ua", label: "UA" },
-  { code: "en", label: "EN" },
-
   { code: "ru", label: "RU" },
+
+  { code: "en", label: "EN" },
 ] as const;
 
 export default function App() {
